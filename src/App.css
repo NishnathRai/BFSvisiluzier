@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.Box{
+  height: 2vh;
+  width: 1vw;
+  border: black 0.5px solid;
+  background-color: white;
+  aspect-ratio: 1;
+}
+.OuterBox{
+  display: grid;
+  grid-template-columns: repeat(100, 1fr); /* 100 equal columns */
+  grid-template-rows: repeat(50, 1fr);
+}
+.options{
+   position: fixed;
+   top: 10vh;
+}
+.BottomBox{
+   width: 50vw;
+   margin: 100px auto 40px auto;
+   border: solid black 2px;
+   border-radius: 10px;
+   padding: 30px;
+}
+.radioGrp{
+  margin: 10px;
+}
+.outerBox{
+  height: max-content;
+  padding-bottom: 100px;
+}
